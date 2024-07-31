@@ -1,0 +1,349 @@
+body {
+  font-family: Source Sans Pro;
+  font-weight: 400;
+  background-color: #f7fbff;
+  color: #002348;
+}
+.header-img-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-section ul {
+  list-style-type: none;
+  display: flex;
+  gap: 65px;
+  font-size: 16px;
+  color: #0073ff;
+  cursor: pointer;
+}
+.header-section-flex {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  padding: 40px;
+  top: 0;
+  padding-left: 120px;
+  gap: 50%;
+}
+.contect-btn {
+  background-color: #007ff4;
+  color: white;
+  padding: 17px 66px 16px 55px;
+  border-radius: 25px;
+  font-weight: 700;
+}
+.home-text {
+  font-weight: 700;
+}
+.clinic-section-main {
+  position: absolute;
+  top: 140px;
+  padding-left: 120px;
+}
+.clinic-section-flex {
+  display: flex;
+}
+.clinic-data {
+  padding-top: 150px;
+}
+.clinic-data p {
+  padding-right: 200px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.clinic-img {
+  padding-right: 100px;
+}
+.clinic-data h5 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.clinic-data h1 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.appointment-btn {
+  width: 259px;
+  height: 60px;
+  background-color: #007ff4;
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  border-radius: 25px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.departments-btn {
+  width: 259px;
+  height: 60px;
+  border: none;
+  color: #007ff4;
+  font-weight: 700;
+  border-radius: 25px;
+  background-color: #ffffff;
+  box-shadow: 0px 10px 50px 25px #003b7913;
+  cursor: pointer;
+}
+.services-section-main {
+  padding: 450px 0px 0px 50px;
+}
+.services-section-main h1 {
+  text-align-last: center;
+}
+.services-section-main p {
+  text-align-last: center;
+  padding: 0px 470px 0px 500px;
+}
+.services-img-flex {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 80px;
+}
+.services-img-box {
+  background: #ffff;
+  border-radius: 10px;
+  padding: 45px 111px 45px 37px;
+  box-shadow: 0px 10px 50px 25px #003b7913;
+}
+.services-img-box h2 {
+  text-align-last: center;
+  padding-top: 30px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.custom-pulmonary {
+  background: #007ef3;
+  color: #fff;
+}
+.learn-more {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.learn-more img {
+  height: 15px;
+}
+.innovative-section-main {
+  display: flex;
+  padding: 100px 0px 0px 120px;
+  background-color: #fff;
+  padding-top: 200px;
+  gap: 100px;
+}
+.innovative-section-main p {
+  width: 530px;
+  font-size: 20px;
+}
+.Innovative-text {
+  padding-top: 200px;
+}
+.Innovative-single {
+  box-shadow: 0px 10px 50px 25px #003b7913;
+  padding: 28px 3px 15px 47px;
+  margin-bottom: -5px;
+  border-radius: 10px;
+  margin-right: 300px;
+}
+.Innovative-single img {
+  margin-top: -150px;
+}
+.Innovative-single1 img {
+  margin-top: -150px;
+}
+.Innovative-single2 img {
+  margin-top: -150px;
+}
+.Innovative-single1 {
+  box-shadow: 0px 10px 50px 25px #003b7913;
+  padding: 28px 3px 15px 47px;
+  margin-bottom: -5px;
+  border-radius: 10px;
+  margin-left: 300px;
+}
+.Innovative-single2 {
+  box-shadow: 0px 10px 50px 25px #003b7913;
+  padding: 28px 3px 15px 47px;
+  margin-bottom: -5px;
+  border-radius: 10px;
+  margin-right: 300px;
+}
+.Innovative-single h5 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.Innovative-single1 h5 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.Innovative-single2 h5 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.Innovative-text h1 {
+  font-size: 54px;
+  font-weight: 600;
+  color: #003b79;
+}
+.Innovative-img {
+  padding: 50px 0px 150px 0px;
+}
+.Innovative-text button {
+  padding: 21px 57px 20px 58px;
+  border: none;
+  border-radius: 25px;
+  background-color: #007ff4;
+  color: #ffff;
+  font-weight: 700;
+}
+.Specialist-circal {
+  display: flex;
+  justify-content: flex-end;
+}
+.Specialist-text {
+  text-align: center;
+  margin-top: -150px;
+}
+.Specialist-text p {
+  padding: 0px 465px 50px 465px;
+  font-size: 20px;
+}
+.Specialist-text h1 {
+  font-size: 54px;
+  font-weight: 600;
+}
+.Specialist-blog-flex {
+  display: flex;
+  padding-left: 60px;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+}
+.Specialist-single-blog {
+  box-shadow: 0px 10px 50px 25px #003b7913;
+  border-radius: 20px;
+  text-align: start;
+}
+.Specialist-single-blog h5 {
+  font-size: 24px;
+  font-weight: 700;
+  padding-left: 30px;
+  margin-top: 20px;
+}
+.Specialist-single-blog p {
+  font-size: 18px;
+  margin-top: -30px;
+  padding-left: 30px;
+}
+.customers-section-main {
+  padding-left: 120px;
+}
+.customers-flex {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+.customers-all-flex {
+  display: flex;
+  gap: 50px;
+  padding: 40px 116px 60px 0px;
+}
+.customers-all {
+  box-shadow: 0px 10px 50px 25px #003b7913;
+  background: white;
+  padding: 55px 90px 65px 85px;
+  border-radius: 20px;
+  width: 577px;
+}
+img.box-img {
+  position: absolute;
+  margin-top: -85px;
+  margin-left: 450px;
+  width: 83px;
+  height: 83px;
+}
+.customers-text h5 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 0px;
+}
+.customers-all p {
+  font-size: 20px;
+  margin-top: -7px;
+}
+.customers-text p {
+  font-size: 18px;
+  margin-top: -30px;
+}
+.Subscribe-oval-img {
+  display: flex;
+  justify-content: flex-end;
+}
+.Subscribe-text {
+  position: absolute;
+  text-align: center;
+  margin-top: -260px;
+  background-color: #007ff4;
+  z-index: 1;
+  width: calc(100% - 350px);
+  margin-left: 120px;
+  padding: 50px;
+  border-radius: 10px;
+}
+.Subscribe-input {
+  padding: 23px 53px 23px 15px;
+  background-color: #ffff;
+  border-radius: 10px;
+  margin: 40px 120px 40px 120px;
+}
+.Subscribe-input input {
+  padding: 20px;
+  margin-left: 10px;
+  padding-right: 300px;
+  border: none;
+  margin-right: 10px;
+}
+.form-control {
+  font-size: 20px;
+  color: #9b9b9b;
+}
+.subscribe-btn {
+  background-color: #007ff4;
+  border: none;
+  padding: 29px 57px 29px 57px;
+  border-radius: 50px;
+  color: #ffff;
+  font-weight: 700;
+}
+.Subscribe-text h1 {
+  font-weight: 600;
+  font-size: 48px;
+  color: #fff;
+}
+.Subscribe-text p {
+  font-size: 20px;
+  color: #fff;
+}
+.Subscribe-section-main {
+  padding-bottom: 300px;
+}
+.header-section-flex1 {
+  display: flex;
+  justify-content: space-around;
+  gap: 25%;
+}
+.footer-main {
+  padding-bottom: 50px;
+}
+.last-footer-section {
+  background-color: #ecf4ff;
+
+  padding: 40px 0px 50px 120px;
+}
+.website-links-flex {
+  display: flex;
+  gap: 10px;
+}
+
+
