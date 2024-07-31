@@ -11,7 +11,7 @@ function Services() {
         </p>
         <div className="services-img-flex">
           <div className="services-img-box">
-            <img src="images/shape.png " />
+            <img src="images/Shape.png " />
             <h2>Dental Care</h2>
           </div>
           <div className="services-img-box custom-pulmonary">

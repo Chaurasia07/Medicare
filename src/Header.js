@@ -7,7 +7,7 @@ function Header() {
         <div className="header-main">
           <div className="header-img-flex">
             <div>
-              <img src="images/Oval copy.png" />
+              <img src="images/oval-copy.png" />
             </div>
             <div>
               <img src="images/Oval.png" />
